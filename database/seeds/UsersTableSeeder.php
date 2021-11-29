@@ -13,7 +13,7 @@ class UsersTableSeeder extends Seeder
                 'name'           => 'Revivla',
                 'email'          => 'revivla@gmail.com',
                 'nomor'         => 02345677123,
-                'password'      => Hash::make('revivla@gmail.com'),
+                'password'      => Hash::make('revivla'),
                 'alamat'        => 'Jl. Malang Kota',
                 'profil'       =>  'product-2.png',
                 'remember_token' => null,
