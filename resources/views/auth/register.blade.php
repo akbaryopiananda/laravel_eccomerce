@@ -52,13 +52,13 @@
                                 <span class="text-gray-700 text-sm">{{ __('Confirm Password') }}</span>
                                 <input placeholder="Konfirmasi Password" id="password-confirm" type="password" name="password_confirmation" class="input__custom{{ $errors->has('password') ? ' is-invalid' : '' }}" required autocomplete="new-password">
                             </label>
-                            <div class="flex justify-between items-center mt-4">
-                                <a class="link" href="{{ route('login') }}">{{ trans('Sudah Punya Akun ?') }}</a>
-                            </div>
                             <div class="mt-6">
                                 <button type="submit" class="btn__login-primary">
                                     {{ __('Register') }}
                                 </button>
+                            </div>
+                            <div class="flex justify-between items-center mt-4">
+                                <a class="link" href="{{ route('login') }}">{{ trans('Sudah Punya Akun ?') }}</a>
                             </div>
                         </form>
                     </div>
